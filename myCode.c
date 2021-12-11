@@ -222,6 +222,7 @@ void next()
         }
         else if (token == '#')
         {
+            //skip macro, not support macro
             while (*src != 0 && *src != '\n')
             {
                 src++;
